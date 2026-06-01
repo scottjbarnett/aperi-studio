@@ -1,8 +1,22 @@
-# Aperi Studio v0.2
+# Aperi Studio v0.3
 
 Static GitHub Pages site for aperi.studio.
 
-Public green ammonia discussion document:
+## New in v0.3
+
+- Homepage visual upgrade
+- Method page
+- Status labels
+- What this is / what this is not sections
+- Machine-readable summaries
+- Light Forest expanded copy
+- Green ammonia discussion document visual tile
+- Field bat sound-map visual
+
+## Public green ammonia discussion document
+
 https://scottjbarnett.github.io/nz-green-ammonia/
 
-The Aperi Energy page intentionally references only the public discussion track. Commercially sensitive applied concept details are not included.
+## Commercial sensitivity
+
+The Aperi Energy page references only the public discussion track. Selected applied concept work remains unpublished while under development.

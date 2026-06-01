@@ -1,0 +1,10 @@
+<svg width="900" height="620" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Talking textbook diagram">
+  <rect width="900" height="620" rx="36" fill="#f7f4ee"/>
+  <path d="M260 190 C340 150 400 170 450 220 C500 170 560 150 640 190 L640 455 C560 420 505 435 450 480 C395 435 340 420 260 455Z" fill="#fffaf1" stroke="#16201f" stroke-width="4"/>
+  <path d="M450 220 L450 480" stroke="#d8cfbf" stroke-width="3"/>
+  <circle cx="450" cy="335" r="78" fill="none" stroke="#2f6f7e" stroke-width="4" stroke-dasharray="10 10"/>
+  <circle cx="450" cy="335" r="34" fill="#31584a"/>
+  <path d="M300 245 H395 M300 285 H375 M300 410 H395 M505 245 H600 M525 285 H600 M505 410 H600" stroke="#8a713f" stroke-width="4" stroke-linecap="round"/>
+  <text x="70" y="86" fill="#16201f" font-family="Arial, sans-serif" font-size="28" font-weight="700">The talking textbook</text>
+  <text x="70" y="124" fill="#66716c" font-family="Arial, sans-serif" font-size="19">curriculum boundary → domain-specific agent → student support</text>
+</svg>
