@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aperi Field</title>
+  <title>Aperi Field - Aperi Studio</title>
   <meta name="description" content="Ultrasonic sensing, bat behaviour, and renewable-energy monitoring.">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -22,19 +22,116 @@
   </nav>
 </header>
 <main>
-<section class="page-hero"><p class="eyebrow">Aperi Field</p><h1>Ultrasonic sensing, bat behaviour, and renewable-energy monitoring.</h1><p class="lede">Once time, location, and three-dimensional sound maps can be captured together, acoustic data can be post-processed into behavioural maps.</p></section>
+<section class="page-hero">
+  <p class="eyebrow">Aperi Field</p>
+  <h1>Ultrasonic sensing, bat behaviour, and renewable-energy monitoring.</h1>
+  <p class="lede">Once time, location, and three-dimensional sound maps can be captured together, acoustic data can be post-processed into behavioural maps.</p>
+</section>
 <section class="content">
-  <img class="page-visual" src="assets/field-bat-sound-map.png" alt="Topological acoustic monitoring map showing stations, vectors and time-stamped inferred bat activity">
+  <figure class="image-figure">
+    <img class="diagram-img" src="assets/field-bat-sound-map.png" alt="Topological acoustic monitoring map showing five stations, time-stamped vectors, and inferred bat movement patterns">
+    <figcaption><strong>Ultrasonic acoustic movement map</strong><span>station data + time + vectors → post-processing → bat movement and behaviour visualisation</span></figcaption>
+  </figure>
   <div class="content-section"><span class="status early">Early hardware concept</span><h2>Three-dimensional sound maps for conservation</h2><p>Aperi Field explores whether compact ultrasonic microphone arrays, GPS-linked logging, and AI-assisted analysis could help visualise bat population movement and possibly identify behavioural patterns in individual bats.</p></div>
-  <div class="content-section"><div class="two-col"><div class="content-card"><h3>What this is</h3><p>An early hardware and data concept for GPS-linked ultrasonic acoustic mapping, post-processed behavioural maps, and conservation monitoring around renewable-energy infrastructure.</p></div><div class="content-card"><h3>What this is not</h3><p>It is not a validated field instrument or a replacement for established recorders such as the AR5. Any individual-bat or behavioural inference would require validation against known populations and field data.</p></div></div></div>
+  <div class="content-section"><div class="two-col">
+  <div class="content-card"><h3>What this is</h3><p>An early hardware and data concept for GPS-linked ultrasonic acoustic mapping, post-processed behavioural maps, and conservation monitoring around renewable-energy infrastructure.</p></div>
+  <div class="content-card"><h3>What this is not</h3><p>It is not a validated field instrument or a replacement for established recorders such as the AR5. Any individual-bat or behavioural inference would require validation against known populations and field data.</p></div>
+</div></div>
   <div class="content-section"><h2>Hardware pathway</h2><p>The current hardware concept builds from:</p><div class="callout"><strong>T5838 ×4 → PCMD3140 → ESP32-S3 → SD card</strong></div></div>
-  <div class="content-section"><h2>Possible outputs</h2><ul><li>Time-stamped ultrasonic recordings.</li><li>GPS-linked bat activity logs.</li><li>Three-dimensional acoustic direction maps.</li><li>Post-processed bat movement visualisations.</li><li>AI-assisted behavioural classification.</li><li>Possible identification of repeated individual or group patterns, if technically supported by the data.</li></ul></div>
   <div class="content-section"><h2>Renewable-energy context</h2><p>Bat strike risk is one of the ecological concerns associated with wind-energy development. Better local acoustic monitoring could support site assessment, mitigation design, post-installation monitoring, and research into deterrent effectiveness.</p></div>
-  <div class="content-section"><h2>Machine-readable summary</h2><p>Aperi Field is an early hardware concept for ultrasonic bat monitoring using MEMS microphone arrays, GPS-linked logging, and post-processed three-dimensional sound maps. The concept relates to conservation monitoring, wind-energy impact assessment, and AI-assisted behavioural visualisation.</p></div>
+  <div id="references"><div class="content-section reference-shelf">
+  <h2>Reference shelf</h2>
+  <p class="reference-shelf-intro">Selected public documents, research papers, project references, and technical sources informing this project room.</p>
+  <div class="reference-group">
+    <h3>Current reference device / New Zealand context</h3>
+    <div class="reference-grid">
+      <article class="reference-card">
+        <span class="status research">Device reference</span>
+        <h4>Alato AR5 Acoustic Recorder</h4>
+        <p>Current NZ frame-reference device for monitoring bats and birds, successor to DOC’s AR4 acoustic recorder.</p>
+        <a href="https://www.alato.co.nz/ar5-product">Open source →</a>
+      </article>
+      <article class="reference-card">
+        <span class="status research">Guidance</span>
+        <h4>DOC bat monitoring guidelines using automatic bat detectors</h4>
+        <p>New Zealand monitoring guidance for bats using automatic bat detectors, including context around AR4/AR5 recorders.</p>
+        <a href="https://www.doc.govt.nz/globalassets/documents/conservation/native-animals/bats/bat-recovery/bat-monitoring-guidelines-using-automatic-bat-detectors.pdf">Open source →</a>
+      </article>
+      <article class="reference-card">
+        <span class="status research">Guidance</span>
+        <h4>DOC - Bats and windfarms in New Zealand</h4>
+        <p>New Zealand context document for bat risks and wind-farm development.</p>
+        <a href="https://www.doc.govt.nz/globalassets/documents/conservation/native-animals/bats/bat-recovery/bats-and-windfarms.pdf">Open source →</a>
+      </article>
+    </div>
+  </div>
+  <div class="reference-group">
+    <h3>Bat strikes, wind farms, and monitoring</h3>
+    <div class="reference-grid">
+      <article class="reference-card">
+        <span class="status research">Research paper</span>
+        <h4>Accounting for carcasses outside searched areas</h4>
+        <p>Research on fatality estimation around wind-energy facilities, including methods for accounting for carcasses outside searched areas.</p>
+        <a href="https://arxiv.org/abs/2201.10064">Open source →</a>
+      </article>
+      <article class="reference-card">
+        <span class="status research">Research paper</span>
+        <h4>Automatic Bat Call Classification using Transformer Networks</h4>
+        <p>Research on AI-assisted bat call classification, useful as a technical reference for acoustic post-processing and multi-species recordings.</p>
+        <a href="https://arxiv.org/abs/2309.11218">Open source →</a>
+      </article>
+    </div>
+  </div>
+  <div class="reference-group">
+    <h3>Ultrasonic deterrents</h3>
+    <div class="reference-grid">
+      <article class="reference-card">
+        <span class="status research">Research paper</span>
+        <h4>Ultrasonic acoustic deterrents significantly reduce bat fatalities at wind turbines</h4>
+        <p>Key southern Texas field study testing ultrasonic deterrents at an operational wind facility.</p>
+        <a href="https://www.sciencedirect.com/science/article/pii/S2351989420301827">Open source →</a>
+      </article>
+      <article class="reference-card">
+        <span class="status research">Technical summary</span>
+        <h4>Tethys summary - ultrasonic deterrents and bat fatalities</h4>
+        <p>Accessible technical summary of the Weaver et al. southern Texas deterrent study.</p>
+        <a href="https://tethys.pnnl.gov/publications/ultrasonic-acoustic-deterrents-significantly-reduce-bat-fatalities-wind-turbines">Open source →</a>
+      </article>
+      <article class="reference-card">
+        <span class="status research">Technical report</span>
+        <h4>NREL/NLR - Ultrasonic deterrents to reduce bat mortality</h4>
+        <p>Broader technical reference reviewing ultrasonic deterrents as a bat-mortality mitigation strategy.</p>
+        <a href="https://docs.nlr.gov/docs/fy25osti/90840.pdf">Open source →</a>
+      </article>
+      <article class="reference-card">
+        <span class="status research">Research paper</span>
+        <h4>PLOS ONE - ultrasonic deterrents and curtailment</h4>
+        <p>Caveat source reporting mixed or negative results, useful for explaining why site-specific monitoring and behavioural mapping matter.</p>
+        <a href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0318451">Open source →</a>
+      </article>
+    </div>
+  </div>
+</div></div>
+  <section class="machine-summary" aria-label="Machine-readable page summary">
+  <h2>Machine-readable summary</h2>
+  <p>This section provides compact page context for search systems, accessibility tools, and AI readers.</p>
+  <pre>{
+  &quot;page_type&quot;: &quot;ProjectPage&quot;,
+  &quot;project_name&quot;: &quot;Aperi Field&quot;,
+  &quot;status&quot;: &quot;early hardware concept&quot;,
+  &quot;summary&quot;: &quot;Aperi Field explores ultrasonic bat monitoring using MEMS microphone arrays, GPS-linked logging and post-processed three-dimensional sound maps for conservation monitoring and wind-energy impact assessment.&quot;,
+  &quot;hardware_pathway&quot;: &quot;T5838 ×4 → PCMD3140 → ESP32-S3 → SD card&quot;,
+  &quot;reference_categories&quot;: [
+    &quot;Current reference device / New Zealand context&quot;,
+    &quot;Bat strikes, wind farms, and monitoring&quot;,
+    &quot;Ultrasonic deterrents&quot;
+  ]
+}</pre>
+</section>
 </section></main>
 <footer class="site-footer"><div class="footer-inner">
   <div><strong>Aperi Studio</strong><span>Open. Orient. Build.</span></div>
-  <div><a href="mailto:info@aperi.nz">info@aperi.nz</a><a href="https://aperi.nz">aperi.nz</a></div>
+  <div><a href="mailto:info@aperi.nz">info@aperi.nz</a><span>·</span><a href="https://aperi.nz">aperi.nz</a></div>
 </div></footer>
 </body>
 </html>
