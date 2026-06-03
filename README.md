@@ -1,22 +1,21 @@
-# Aperi Studio v0.3
+# Aperi Studio - Digital Rights update
 
-Static GitHub Pages site for aperi.studio.
+Upload these files into the root of the existing `aperi-studio` GitHub Pages repo.
 
-## New in v0.3
+## Files
 
-- Homepage visual upgrade
-- Method page
-- Status labels
-- What this is / what this is not sections
-- Machine-readable summaries
-- Light Forest expanded copy
-- Green ammonia discussion document visual tile
-- Field bat sound-map visual
+- `digital-rights.html`
+- `assets/digital-rights-governance-map.png`
 
-## Public green ammonia discussion document
+## Notes
 
-https://scottjbarnett.github.io/nz-green-ammonia/
+This update replaces the Digital Rights page copy and adds the new governance map visual.
 
-## Commercial sensitivity
-
-The Aperi Energy page references only the public discussion track. Selected applied concept work remains unpublished while under development.
+It includes:
+- time-bounded consent
+- rights that travel with the person
+- digital citizen is not a user profile
+- agentically assisted data rights layer
+- sovereign data and vault
+- portability and global access
+- services, institutions, automated systems and databases
