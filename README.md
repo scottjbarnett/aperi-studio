@@ -1,21 +1,23 @@
-# Aperi Studio - Digital Rights update
+# Aperi Studio - Learning page update
 
 Upload these files into the root of the existing `aperi-studio` GitHub Pages repo.
 
 ## Files
 
-- `digital-rights.html`
-- `assets/digital-rights-governance-map.png`
+- `learning.html`
+- `assets/learning-profile-map.png`
+- `assets/learning-support-layers.png`
 
 ## Notes
 
-This update replaces the Digital Rights page copy and adds the new governance map visual.
+This update replaces the Learning page copy and adds the new learning visuals.
 
 It includes:
-- time-bounded consent
-- rights that travel with the person
-- digital citizen is not a user profile
-- agentically assisted data rights layer
-- sovereign data and vault
-- portability and global access
-- services, institutions, automated systems and databases
+- The talking textbook
+- Bounded learning agents
+- Curriculum as a boundary layer
+- Adaptive student-owned learning profiles
+- Teacher support, not teacher replacement
+- Beyond the industrial classroom
+- Lifelong learning profile
+- Student data sovereignty
