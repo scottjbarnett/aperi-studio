@@ -1,23 +1,19 @@
-# Aperi Studio cleanup v0.4
+# Aperi Studio - Data Rights article update
 
-Static GitHub Pages cleanup package.
+Upload these files into the root of the existing `aperi-studio` GitHub Pages repo.
 
-## Included
+## Files
 
-- Updated landing page using the newer room graphics
-- Updated `style.css`
-- Machine-readable summary footer format
-- Energy reference shelf
-- Light Forest reference shelf
-- Field reference shelf
-- Updated Library page with grouped references
-- Current Digital Rights and Learning page copy/graphics integrated
-- Footer separator fix
+- `the-state-should-not-ask-twice.html`
+- `digital-rights.html`
+- `signals.html`
 
-## Notes
+## Adds
 
-NEOM has been excluded from the Energy reference shelf.
-The Energy page references only the public discussion track. Selected applied concept work remains unpublished while under development.
+- Full article page: The State Should Not Need To Ask Twice
+- Sources consulted section
+- Machine-readable summary block
+- Standfirst/link from Digital Rights room
+- Signal card/link from Signals page
 
-Public green ammonia discussion document:
-https://scottjbarnett.github.io/nz-green-ammonia/
+The article voice has been preserved as supplied.
