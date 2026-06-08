@@ -1,19 +1,15 @@
-# Aperi Studio - Data Rights article update
+# Aperi Studio - Index and llms.txt fix
 
-Upload these files into the root of the existing `aperi-studio` GitHub Pages repo.
+Upload these files into the root of the existing `aperi-studio` repo.
 
 ## Files
 
-- `the-state-should-not-ask-twice.html`
-- `digital-rights.html`
-- `signals.html`
+- `index.html`
+- `llms.txt`
 
-## Adds
+## Changes
 
-- Full article page: The State Should Not Need To Ask Twice
-- Sources consulted section
-- Machine-readable summary block
-- Standfirst/link from Digital Rights room
-- Signal card/link from Signals page
-
-The article voice has been preserved as supplied.
+- Removed the homepage Status guide section.
+- Added `llms.txt`.
+- Changed the machine-readable sidebar link to point to `llms.txt`.
+- Kept the homepage Signals card linking to `the-state-should-not-ask-twice.html`.

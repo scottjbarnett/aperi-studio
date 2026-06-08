@@ -1,0 +1,46 @@
+# Aperi Studio
+
+Aperi Studio is the public project and research space of Aperi Limited, a New Zealand-based company working at the early edge of complex projects.
+
+## Site purpose
+
+Aperi Studio collects project rooms, research trails, public documents, visual artefacts, and essays across energy, ecology, conservation sensing, digital rights, and learning.
+
+The site is intended to be readable by people, search systems, accessibility tools, and AI assistants.
+
+## Primary rooms
+
+- Energy: public research on fertiliser sovereignty, renewable ammonia pathways, and regional energy resilience.
+- Light Forest: early ecological infrastructure concept exploring whether solar infrastructure can support native regeneration.
+- Field: early hardware concept for ultrasonic acoustic sensing, bat movement mapping, and renewable-energy monitoring.
+- Digital Rights Infrastructure: concept stream about data sovereignty, time-bounded consent, digital identity, agentic AI, portability, global access, and rights that travel with the person.
+- Aperi Learning: concept stream about bounded AI learning agents, the talking textbook, adaptive student-owned learning profiles, and data-sovereign education.
+
+## Key public documents and pages
+
+- /energy.html
+- /light-forest.html
+- /field.html
+- /digital-rights.html
+- /learning.html
+- /method.html
+- /library.html
+- /signals.html
+- /the-state-should-not-ask-twice.html
+- Green ammonia discussion document: https://scottjbarnett.github.io/nz-green-ammonia/
+
+## Featured essay
+
+The State Should Not Need To Ask Twice:
+As governments connect more data, the question is whether citizens can see, correct, contest, and understand how that knowledge is used.
+
+## Commercial sensitivity
+
+The public Energy page discusses the broader fertiliser sovereignty and green ammonia discussion track. Selected applied concept work remains unpublished while under development.
+
+## Contact
+
+Aperi Limited
+King Country, New Zealand
+info@aperi.nz
+https://aperi.nz
